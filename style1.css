@@ -1,0 +1,66 @@
+.topnav {
+    background-color: lightpink;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: lavender;
+  }
+  
+  .topnav a.active {
+    background-color: lavender;
+    color: white;
+  }
+
+h1 {
+    text-align: center;
+    padding-top: 140px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.banner {
+    opacity: 0.5;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1556139902-7367723b7e9e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWVzdGhldGljJTIwcGlua3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    .column {
+      flex: 25%;
+      padding: 0 4px;
+    }
+
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lightpink;
+  font-size: 9px;
+  color: white;
+}
